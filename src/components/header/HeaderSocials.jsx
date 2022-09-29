@@ -1,10 +1,12 @@
 import React from 'react'
+import { GrLinkedin } from 'react-icons/gr';
+import { BsGithub } from 'react-icons/bs';
 
 const HeaderSocials = () => {
   return (
     <div className="header_socials">
-      <a href="https://www.linkedin.com/in/silvia-neves-silvianeves">Linkedin</a>
-      <a href="https://github.com/Sil-Tatiana">GitHub</a>
+      <a href="https://www.linkedin.com/in/silvia-neves-silvianeves" target= "_blank" rel="noreferrer"><GrLinkedin /></a>
+      <a href="https://github.com/Sil-Tatiana" target= "_blank" rel="noreferrer"><BsGithub /></a>
     </div>
   )
 }
