@@ -62,23 +62,38 @@ section > h2 {
 }
 
 a {
-  color: red;
+  color: #000000;
 }
 
 a:hover {
-  color: yellow;
+  color: #fff;
 }
 
 .btn {
-  width: max-content;
+  border: 1px solid #000000;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.5s ease-out;
+  box-shadow: 0 0.5px 1px rgba(0,0,0,.6);
 }
 
 .btn:hover {
-  color: purple;
+  background-color: #000000;
 }
 
 .btn-primary{
-  background-color: aqua;
+  border: 1px solid #000000;
+  border-radius: 2rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #000000;
+  color: #fff;
+  transition: all 0.5s ease-out;
+  box-shadow: 0 0.5px 1px rgba(0,0,0,.6);
+}
+
+.btn-primary:hover {
+  background-color: #E0E0E0;
+  color: #000000;
 }
 
 img {
