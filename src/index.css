@@ -52,6 +52,7 @@ h1 {
   font-size: 2.5rem;
 }
 
+
 section {
   margin-top: 8rem;
 }
@@ -105,6 +106,9 @@ img {
   object-fit: cover;
 }
 
+.text_light {
+  color: var(--color-subtitles);
+}
 
 /* ---------------- Media Queries (Medium devices) ---------------*/
 
