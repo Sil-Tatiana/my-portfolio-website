@@ -12,7 +12,10 @@
 
 :root {
 --color-bg: #E0E0E0;
-
+--color-bg-darker:#C9C9C9;
+--color-text-p: #636262;
+--color-subtitles:#8a8989;
+--transition: all 0.5s ease-out;
 --container-width-lg:75%;
 --container-width-md:86%;
 --container-width-sm:90%;
