@@ -13,29 +13,49 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsFillCloudCheckFill />
-              <h4>HTML</h4>
-              <small className="text_light">Experienced</small>
+              <div className="experience__icons">
+                <BsFillCloudCheckFill />
+              </div>
+              <div>
+                <h4>HTML</h4>
+                <small className="text_light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsFillCloudCheckFill />
-              <h4>CSS</h4>
-              <small className="text_light">Intermediate</small>
+                <div className="experience__icons">
+                  <BsFillCloudCheckFill />
+                </div>
+              <div>
+                <h4>CSS</h4>
+                <small className="text_light">Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsFillCloudCheckFill />
-              <h4>JavaScript</h4>
-              <small className="text_light">Intermediate</small>
+                <div className="experience__icons">
+                  <BsFillCloudCheckFill />
+                </div>
+              <div>
+                <h4>JavaScript</h4>
+                <small className="text_light">Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsFillCloudCheckFill />
-              <h4>Bootstrap</h4>
-              <small className="text_light">Intermediate</small>
+                <div className="experience__icons">
+                  <BsFillCloudCheckFill />
+                </div>
+              <div>
+                <h4>Bootstrap</h4>
+                <small className="text_light">Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsFillCloudCheckFill />
-              <h4>React</h4>
-              <small className="text_light">Basic</small>
+                <div className="experience__icons">
+                  <BsFillCloudCheckFill />
+                </div>
+              <div>
+                <h4>React</h4>
+                <small className="text_light">Basic</small>
+              </div>
             </article>
           </div>
         </div>
@@ -44,24 +64,40 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className="experience__content">
           <article className="experience__details">
-              <BsFillCloudCheckFill />
-              <h4>Ruby</h4>
-              <small className="text_light">Intermediate</small>
+                <div className="experience__icons">
+                  <BsFillCloudCheckFill />
+                </div>
+              <div>
+                <h4>Ruby</h4>
+                <small className="text_light">Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsFillCloudCheckFill />
-              <h4>Ruby on Rails</h4>
-              <small className="text_light">Intermediate</small>
+                <div className="experience__icons">
+                  <BsFillCloudCheckFill />
+                </div>
+              <div>
+                <h4>Ruby on Rails</h4>
+                <small className="text_light">Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsFillCloudCheckFill />
-              <h4>MySQL</h4>
-              <small className="text_light">Intermediate</small>
+                <div className="experience__icons">
+                  <BsFillCloudCheckFill />
+                </div>
+              <div>
+                <h4>MySQL</h4>
+                <small className="text_light">Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsFillCloudCheckFill />
-              <h4>Node JS</h4>
-              <small className="text_light">Basic</small>
+                <div className="experience__icons">
+                  <BsFillCloudCheckFill />
+                </div>
+              <div>
+                <h4>Node JS</h4>
+                <small className="text_light">Basic</small>
+              </div>
             </article>
           </div>
         </div>
