@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import PLANTREAT from "../assets/plantreat.png";
-import BARKAWAY from "../assets/barkaway.png";
+import PLANTREAT from "../assets/plantreat2.png";
+import BARKAWAY from "../assets/barkaway6.png";
 
 const Portfolio = () => {
   return (
@@ -13,18 +13,24 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__itme-image">
             <img src={PLANTREAT} alt="Plant app" />
-            <h3>Portfolio Title</h3>
-            <a href="https://github.com/felipesferreiradev/plantreat" target='_blank' className='btn'>Github</a>
-            <a href="http://www.plantreat.lol/" className='btn btn-primary' target='_blank' >Live Demo</a>
           </div>
+            <h3>Plantreat</h3>
+            <p>The app you need to help you treat your plants</p>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/felipesferreiradev/plantreat" target='_blank'rel="noopener noreferrer" className='btn'>Github</a>
+              <a href="http://www.plantreat.lol/" className='btn btn-primary' target='_blank'rel="noopener noreferrer">Live Demo</a>
+            </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__itme-image">
-          <img src={BARKAWAY} alt="Dog walker website" />
-            <h3>Portfolio Title</h3>
-            <a href="https://github.com/felipesferreiradev/BARK_AWAY" target='_blank' className='btn'>Github</a>
-            <a href="https://bark-away.herokuapp.com/" className='btn btn-primary' target='_blank' >Live Demo</a>
+            <img src={BARKAWAY} alt="Dog walker website" />
           </div>
+            <h3>Barkaway</h3>
+            <p>The website that takes your dog on a walk</p>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/felipesferreiradev/BARK_AWAY" target='_blank' rel="noopener noreferrer"className='btn'>Github</a>
+              <a href="https://bark-away.herokuapp.com/" className='btn btn-primary' target='_blank' rel="noopener noreferrer" >Live Demo</a>
+            </div>
         </article>
       </div>
 
